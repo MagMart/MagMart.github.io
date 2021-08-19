@@ -1,0 +1,43 @@
+body {
+    background-color: #E5E5E5;
+}
+
+#mainNav {
+    /* ###Fix the below to make the navbar stay at the top when scrolling### */
+    /* position: sticky; */
+}
+
+.intro {
+    background-color: #E5E5E5;
+    color: #FCA311;
+    text-align: center;
+    display: block;
+    max-width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mid {
+    background-color: #FFFFFF;
+    display: block;
+    text-align: center;
+    max-width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    background-color: #E5E5E5;
+    display: block;
+    text-align: center;
+    max-width: fit-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
