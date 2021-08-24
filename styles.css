@@ -1,19 +1,21 @@
-body {
-    background-color: #E5E5E5;
+.main {
+    scroll-snap-type: y mandatory;
 }
 
-#mainNav {
-    /* ###Fix the below to make the navbar stay at the top when scrolling### */
-    /* position: sticky; */
+section {
+    scroll-snap-align: start;
+}
+
+h3 {
+    color: #FCA311;
 }
 
 .intro {
     background-color: #E5E5E5;
     color: #FCA311;
     text-align: center;
-    display: block;
-    max-width: fit-content;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,10 +23,9 @@ body {
 
 .mid {
     background-color: #FFFFFF;
-    display: block;
     text-align: center;
-    max-width: fit-content;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,10 +33,9 @@ body {
 
 .contact {
     background-color: #E5E5E5;
-    display: block;
     text-align: center;
-    max-width: fit-content;
-    height: 100vh;
+    height: 33vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
